@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 /**
  * @author 彭有
  * @date 2020/4/11
+ *
+ * 返回格式定义
  */
 @Data
 @NoArgsConstructor

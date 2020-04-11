@@ -16,12 +16,24 @@ import javax.validation.constraints.NotNull;
 @Validated
 public class UserController {
 
+    /**
+     * 127.0.0.1:8080/user/test1
+     *
+     * @param user
+     * @return
+     */
     @PostMapping("/test1")
     public String test1(@Valid @RequestBody User user) {
         System.out.println(user);
         return user.toString();
     }
 
+    /**
+     * 127.0.0.1:8080/user/test2
+     *
+     * @param name
+     * @return
+     */
     @GetMapping("/test2")
     public String test2(@NotNull(message = "name不能为空") String name) {
         System.out.println(name);

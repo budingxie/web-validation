@@ -18,6 +18,8 @@ import java.util.stream.Collectors;
 /**
  * @author 彭有
  * @date 2020/4/11
+ * <p>
+ * 异常捕获类
  */
 @RestControllerAdvice
 @ControllerAdvice

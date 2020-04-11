@@ -22,6 +22,9 @@ public class User {
     @Email(message = "邮箱格式不对")
     private String email;
 
+    /**
+     * 还可以支持正则方式
+     */
     @Pattern(regexp = "")
     private String event;
 }
