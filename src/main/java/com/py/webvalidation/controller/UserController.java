@@ -29,7 +29,11 @@ public class UserController {
     }
 
     /**
-     * 127.0.0.1:8080/user/test2
+     * 请求：127.0.0.1:8080/user/test2
+     * 抛异常
+     * <p>
+     * 请求：127.0.0.1:8080/user/test2?name=
+     * 正常
      *
      * @param name
      * @return
